@@ -68,3 +68,7 @@ g.saludar()
 #        > G
 #       /
 # E -> F
+
+#Si quiero de g llamar a hablar de la clase E?
+if (isinstance(g,E)):
+    E.saludar(g)
